@@ -1,5 +1,3 @@
-[![GitHub stars](https://img.shields.io/github/stars/Excel Mock Interview/Excel Mock Interview?style=social)](https://github.com/Excel Mock Interview/Excel Mock Interview/stargazers)
-
 # Excel Mock Interview - AI-powered voice interviewer for hiring 💼
 
 Excel Mock Interview is an open source platform for companies to conduct AI powered hiring interviews with their candidates. Now featuring specialized Excel Mock Interviewer for technical skill assessment.
