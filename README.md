@@ -6,15 +6,6 @@ Excel Mock Interview is an open source platform for companies to conduct AI powe
 
 <img src="https://github.com/user-attachments/assets/fa92ade1-02ea-4332-b5ed-97056dea01c3" alt="Excel Mock Interview Logo" width="800">
 
-<div style="display: flex; flex-direction: row; gap: 20px; margin: 20px 0;">
-  <picture>
-    <img src="https://github.com/user-attachments/assets/91adf737-6f62-4f48-ae68-58855bc38ccf" alt="Description 1" width="400" style="max-width: 100%;">
-  </picture>
-  <picture>
-    <img src="https://github.com/user-attachments/assets/91bbe5d5-1eff-4158-80d9-d98c2a53f59b" alt="Description 2" width="400" style="max-width: 100%;">
-  </picture>
-</div>
-
 ## Key Features
 
 ### General Interview Platform
@@ -31,10 +22,6 @@ Excel Mock Interview is an open source platform for companies to conduct AI powe
 - **📈 Interactive Spreadsheet:** Embedded Luckysheet component for authentic Excel-like experience.
 - **🎯 Comprehensive Analytics:** Multi-layered feedback system with benchmarking and improvement plans.
 - **⏱️ Structured Flow:** 5-state interview progression from introduction to detailed feedback.
-
-Here's a [loom](https://www.loom.com/share/762fd7d12001490bbfdcf3fac37ff173?sid=9a5b2a5a-64df-4c4c-a0e7-fc9765691f81) of me explaining the app.
-
-For detailed information about the Excel Mock Interviewer feature, see [EXCEL_INTERVIEWER.md](EXCEL_INTERVIEWER.md).
 
 ## Initial Setup
 
@@ -106,34 +93,3 @@ yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-## Self Hosting
-
-We recommend using [Vercel](https://vercel.com/) to host the app.
-
-## Contributing
-
-If you'd like to contribute to Excel Mock Interview, feel free to fork the repository, make your changes, and submit a pull request. Contributions are welcomed and appreciated.
-
-For a detailed guide on contributing, read the [CONTRIBUTING.md](CONTRIBUTING.md) file.
-
-## Show Your Support 🌟
-
-If you find Excel Mock Interview helpful, please consider giving us a star on GitHub! It helps us reach more developers and continue improving the project.
-
-## Products built on top of Excel Mock Interview 🚀
-
-<div align="left">
-  <a href="https://talvin.ai/" target="_blank">
-    <img src="https://pbs.twimg.com/profile_images/1910041959508422656/OEnXp-kO_400x400.jpg" alt="Talvin AI Logo" height="100" style="border-radius: 20%;">
-    <p>Talvin AI</p>
-  </a>
-</div>
-
-## Contact
-
-If you have any questions or feedback, please feel free to reach out to us at [suveen.te1[at]gmail.com](mailto:suveen.te1@gmail.com).
-
-## License
-
-The software code is licensed under the MIT License.
