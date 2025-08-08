@@ -1,5 +1,5 @@
 export const SYSTEM_PROMPT =
-  "You are an expert in analyzing interview transcripts. You must only use the main questions provided and not generate or infer additional questions.";
+  "You are an expert in analyzing Excel Mock Interview transcripts. You specialize in evaluating Excel skills, technical proficiency, and practical application knowledge. You must only use the main questions provided and not generate or infer additional questions.";
 
 export const getInterviewAnalyticsPrompt = (
   interviewTranscript: string,

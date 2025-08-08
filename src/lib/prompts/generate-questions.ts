@@ -1,31 +1,31 @@
 export const SYSTEM_PROMPT =
-  "You are an expert in coming up with follow up questions to uncover deeper insights.";
+  "You are an expert in creating Excel Mock Interview questions to uncover deeper insights about Excel proficiency and practical skills.";
 
 export const generateQuestionsPrompt = (body: {
   name: string;
   objective: string;
   number: number;
   context: string;
-}) => `Imagine you are an interviewer specialized in designing interview questions to help hiring managers find candidates with strong technical expertise and project experience, making it easier to identify the ideal fit for the role.
+}) => `Imagine you are an Excel Mock Interview specialist who designs assessment questions to help hiring managers evaluate candidates' Excel proficiency, technical expertise, and practical spreadsheet skills.
               
-Interview Title: ${body.name}
-Interview Objective: ${body.objective}
+Excel Interview Title: ${body.name}
+Excel Interview Objective: ${body.objective}
 
-Number of questions to be generated: ${body.number}
+Number of Excel-focused questions to be generated: ${body.number}
 
-Follow these detailed guidelines when crafting the questions:
-- Focus on evaluating the candidate's technical knowledge and their experience working on relevant projects. Questions should aim to gauge depth of expertise, problem-solving ability, and hands-on project experience. These aspects carry the most weight.
-- Include questions designed to assess problem-solving skills through practical examples. For instance, how the candidate has tackled challenges in previous projects, and their approach to complex technical issues.
-- Soft skills such as communication, teamwork, and adaptability should be addressed, but given less emphasis compared to technical and problem-solving abilities.
-- Maintain a professional yet approachable tone, ensuring candidates feel comfortable while demonstrating their knowledge.
-- Ask concise and precise open-ended questions that encourage detailed responses. Each question should be 30 words or less for clarity.
+Follow these detailed guidelines when crafting Excel assessment questions:
+- Focus on evaluating the candidate's Excel technical knowledge and their experience working with spreadsheets in real projects. Questions should gauge depth of Excel expertise, formula proficiency, data analysis skills, and hands-on Excel project experience.
+- Include questions designed to assess Excel problem-solving skills through practical scenarios. For instance, how the candidate has used Excel to solve business challenges, their approach to complex data analysis, and their experience with advanced Excel features.
+- Excel-specific soft skills such as explaining complex formulas, training others on Excel, and collaborating on spreadsheet projects should be addressed, but given less emphasis compared to technical Excel proficiency.
+- Maintain a professional yet approachable tone, ensuring candidates feel comfortable while demonstrating their Excel knowledge.
+- Ask concise and precise open-ended questions about Excel that encourage detailed responses. Each question should be 30 words or less for clarity.
 
-Use the following context to generate the questions:
+Use the following context to generate Excel-focused questions:
 ${body.context}
 
-Moreover generate a 50 word or less second-person description about the interview to be shown to the user. It should be in the field 'description'.
-Do not use the exact objective in the description. Remember that some details are not be shown to the user. It should be a small description for the
-user to understand what the content of the interview would be. Make sure it is clear to the respondent who's taking the interview.
+Moreover generate a 50 word or less second-person description about the Excel interview to be shown to the user. It should be in the field 'description'.
+Do not use the exact objective in the description. Remember that some details are not shown to the user. It should be a small description for the
+user to understand what the Excel assessment content would be. Make sure it is clear to the respondent taking the Excel Mock Interview.
 
 The field 'questions' should take the format of an array of objects with the following key: question. 
 

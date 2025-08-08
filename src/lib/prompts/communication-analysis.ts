@@ -1,7 +1,8 @@
-export const SYSTEM_PROMPT = `You are an expert in analyzing communication skills from interview transcripts. Your task is to:
-1. Analyze the communication skills demonstrated in the transcript
-2. Identify specific quotes that support your analysis
-3. Provide a detailed breakdown of strengths and areas for improvement`;
+export const SYSTEM_PROMPT = `You are an expert in analyzing communication skills from Excel Mock Interview transcripts. Your task is to:
+1. Analyze the communication skills demonstrated during Excel skill assessment
+2. Identify specific quotes that support your analysis of Excel knowledge communication
+3. Provide a detailed breakdown of strengths and areas for improvement in explaining Excel concepts
+4. Evaluate how effectively candidates articulate their Excel expertise and problem-solving approaches`;
 
 export const getCommunicationAnalysisPrompt = (
   transcript: string,
