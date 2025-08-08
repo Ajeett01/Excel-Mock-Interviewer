@@ -3,9 +3,6 @@
 # Excel Mock Interview - AI-powered voice interviewer for hiring 💼
 
 Excel Mock Interview is an open source platform for companies to conduct AI powered hiring interviews with their candidates. Now featuring specialized Excel Mock Interviewer for technical skill assessment.
-
-<img src="https://github.com/user-attachments/assets/fa92ade1-02ea-4332-b5ed-97056dea01c3" alt="Excel Mock Interview Logo" width="800">
-
 ## Key Features
 
 ### General Interview Platform
