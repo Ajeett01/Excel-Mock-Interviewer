@@ -1,0 +1,250 @@
+{
+  "excel_interview": {
+    "version": "1.0.0",
+    "default_settings": {
+      "timeout_minutes": 60,
+      "max_tasks_per_level": 5,
+      "enable_voice_recording": true,
+      "auto_save_interval": 30000,
+      "evaluation_delay": 2000
+    },
+    "skill_levels": {
+      "basic": {
+        "name": "Basic Excel Skills",
+        "description": "Fundamental Excel operations and basic formulas",
+        "duration_minutes": 20,
+        "conceptual_questions": 3,
+        "practical_tasks": 2,
+        "passing_score": 60,
+        "focus_areas": [
+          "Basic formulas (SUM, AVERAGE, COUNT)",
+          "Cell references and ranges",
+          "Data entry and formatting",
+          "Simple charts and graphs",
+          "Basic data organization"
+        ],
+        "task_types": [
+          "formula_creation",
+          "data_manipulation",
+          "chart_creation"
+        ]
+      },
+      "intermediate": {
+        "name": "Intermediate Excel Skills",
+        "description": "Advanced functions and data analysis capabilities",
+        "duration_minutes": 30,
+        "conceptual_questions": 4,
+        "practical_tasks": 3,
+        "passing_score": 70,
+        "focus_areas": [
+          "Advanced functions (VLOOKUP, IF, COUNTIF)",
+          "Data validation and conditional formatting",
+          "Pivot tables and data analysis",
+          "Complex formulas and nested functions",
+          "Data cleaning and transformation"
+        ],
+        "task_types": [
+          "formula_creation",
+          "data_analysis",
+          "data_manipulation",
+          "chart_creation",
+          "conditional_formatting"
+        ]
+      },
+      "advanced": {
+        "name": "Advanced Excel Skills",
+        "description": "Expert-level Excel features and optimization techniques",
+        "duration_minutes": 45,
+        "conceptual_questions": 5,
+        "practical_tasks": 4,
+        "passing_score": 80,
+        "focus_areas": [
+          "Advanced analytics and statistical functions",
+          "Complex pivot tables and data modeling",
+          "Macro basics and automation concepts",
+          "Performance optimization techniques",
+          "Advanced charting and visualization",
+          "Data integration and external connections"
+        ],
+        "task_types": [
+          "formula_creation",
+          "data_analysis",
+          "pivot_tables",
+          "data_manipulation",
+          "chart_creation",
+          "conditional_formatting"
+        ]
+      }
+    },
+    "evaluation_criteria": {
+      "conceptual": {
+        "weight": 0.4,
+        "factors": {
+          "accuracy": 0.4,
+          "completeness": 0.3,
+          "clarity": 0.2,
+          "depth": 0.1
+        }
+      },
+      "practical": {
+        "weight": 0.6,
+        "factors": {
+          "accuracy": 0.35,
+          "efficiency": 0.25,
+          "best_practices": 0.25,
+          "completion": 0.15
+        }
+      }
+    },
+    "task_templates": {
+      "formula_creation": {
+        "name": "Formula Creation",
+        "description": "Create and implement Excel formulas to solve specific problems",
+        "time_limit_minutes": 8,
+        "evaluation_points": [
+          "Formula syntax correctness",
+          "Appropriate function selection",
+          "Cell reference accuracy",
+          "Error handling"
+        ]
+      },
+      "data_analysis": {
+        "name": "Data Analysis",
+        "description": "Analyze datasets and extract meaningful insights",
+        "time_limit_minutes": 12,
+        "evaluation_points": [
+          "Data interpretation accuracy",
+          "Statistical analysis correctness",
+          "Insight quality",
+          "Presentation clarity"
+        ]
+      },
+      "data_manipulation": {
+        "name": "Data Manipulation",
+        "description": "Clean, transform, and organize data effectively",
+        "time_limit_minutes": 10,
+        "evaluation_points": [
+          "Data cleaning effectiveness",
+          "Transformation accuracy",
+          "Organization logic",
+          "Efficiency of approach"
+        ]
+      },
+      "chart_creation": {
+        "name": "Chart Creation",
+        "description": "Create appropriate visualizations for given data",
+        "time_limit_minutes": 8,
+        "evaluation_points": [
+          "Chart type appropriateness",
+          "Data representation accuracy",
+          "Visual clarity",
+          "Formatting quality"
+        ]
+      },
+      "pivot_tables": {
+        "name": "Pivot Tables",
+        "description": "Create and configure pivot tables for data summarization",
+        "time_limit_minutes": 15,
+        "evaluation_points": [
+          "Pivot table structure",
+          "Field placement accuracy",
+          "Calculation correctness",
+          "Summary effectiveness"
+        ]
+      },
+      "conditional_formatting": {
+        "name": "Conditional Formatting",
+        "description": "Apply conditional formatting to highlight data patterns",
+        "time_limit_minutes": 6,
+        "evaluation_points": [
+          "Rule logic correctness",
+          "Visual effectiveness",
+          "Condition accuracy",
+          "Format appropriateness"
+        ]
+      }
+    },
+    "scoring_rubric": {
+      "excellent": {
+        "range": [90, 100],
+        "description": "Exceptional Excel skills with advanced techniques and optimization",
+        "feedback": "Outstanding performance demonstrating mastery of Excel concepts and practical application."
+      },
+      "proficient": {
+        "range": [80, 89],
+        "description": "Strong Excel skills with good understanding of advanced features",
+        "feedback": "Strong performance with good grasp of Excel functionality and best practices."
+      },
+      "competent": {
+        "range": [70, 79],
+        "description": "Adequate Excel skills for most business requirements",
+        "feedback": "Competent performance meeting basic requirements with room for improvement in advanced areas."
+      },
+      "developing": {
+        "range": [60, 69],
+        "description": "Basic Excel skills requiring further development",
+        "feedback": "Developing skills that need strengthening in both conceptual understanding and practical application."
+      },
+      "inadequate": {
+        "range": [0, 59],
+        "description": "Insufficient Excel skills for role requirements",
+        "feedback": "Significant improvement needed in Excel fundamentals and practical application."
+      }
+    },
+    "feedback_templates": {
+      "strengths": [
+        "Demonstrates strong understanding of Excel formulas and functions",
+        "Shows excellent problem-solving approach in spreadsheet tasks",
+        "Applies best practices in data organization and formatting",
+        "Efficiently completes tasks with optimal solutions",
+        "Displays good knowledge of advanced Excel features",
+        "Uses appropriate chart types for data visualization",
+        "Implements effective data validation and error handling"
+      ],
+      "improvements": [
+        "Consider exploring more advanced Excel functions for complex calculations",
+        "Focus on improving formula efficiency and optimization techniques",
+        "Practice data analysis and interpretation skills",
+        "Strengthen understanding of pivot table functionality",
+        "Improve chart formatting and visual presentation skills",
+        "Learn more about conditional formatting applications",
+        "Develop better data cleaning and transformation techniques"
+      ],
+      "recommendations": [
+        "Practice with complex datasets to improve analytical skills",
+        "Explore Excel's advanced charting and visualization features",
+        "Learn keyboard shortcuts to improve efficiency",
+        "Study best practices for spreadsheet design and organization",
+        "Practice creating dynamic reports with pivot tables",
+        "Explore Excel's data analysis tools and add-ins",
+        "Consider learning basic VBA for automation tasks"
+      ]
+    },
+    "sample_data": {
+      "sales_data": {
+        "name": "Sales Performance Data",
+        "description": "Monthly sales data for analysis and reporting",
+        "columns": ["Month", "Region", "Product", "Sales", "Units", "Rep"],
+        "rows": 50
+      },
+      "employee_data": {
+        "name": "Employee Information",
+        "description": "HR data for employee management tasks",
+        "columns": ["ID", "Name", "Department", "Salary", "Start_Date", "Performance"],
+        "rows": 30
+      },
+      "inventory_data": {
+        "name": "Inventory Management",
+        "description": "Product inventory and stock management data",
+        "columns": ["SKU", "Product", "Category", "Stock", "Price", "Supplier"],
+        "rows": 40
+      },
+      "financial_data": {
+        "name": "Financial Analysis",
+        "description": "Financial metrics for business analysis",
+        "columns": ["Account", "Q1", "Q2", "Q3", "Q4", "Category"],
+        "rows": 25
+      }
+    }
+  }
+}
