@@ -559,7 +559,7 @@ function TraditionalCall({ interview }: InterviewProps) {
         </Card>
         <a
           className="flex flex-row justify-center align-middle mt-3"
-          href="https://folo-up.co/"
+          href="https://github.com/Ajeett01/Excel-Mock-Interviewer"
           target="_blank"
         >
           <div className="text-center text-md font-semibold mr-2  ">

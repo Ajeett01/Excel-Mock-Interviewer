@@ -30,7 +30,7 @@ function PopupLoader() {
       </div>
       <a
         className="flex flex-row justify-center align-middle mt-3"
-        href="https://folo-up.co/"
+        href="https://github.com/Ajeett01/Excel-Mock-Interviewer"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -64,7 +64,7 @@ function PopUpMessage({ title, description, image }: PopupProps) {
       </div>
       <a
         className="flex flex-row justify-center align-middle mt-3"
-        href="https://folo-up.co/"
+        href="https://github.com/Ajeett01/Excel-Mock-Interviewer"
         target="_blank"
         rel="noopener noreferrer"
       >
